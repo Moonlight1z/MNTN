@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MNTN</title>
+    <link rel="icon" href="./img/logo.svg">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./Gilroy/stylesheet.css">
+</head>
+<body>
+    <header class="container-header">
+        <nav class="navigation">
+            <h3 class="name-company">MNTN</h3>
+            <li class="navigation-menu">
+                <ul><a href="#card1" class="navigation-menu__item">Equipment</a></ul>
+                <ul><a href="#card2" class="navigation-menu__item">About us</a></ul>
+                <ul><a href="#card3"  class="navigation-menu__item">Blog</a></ul>
+            </li>
+            <div class="account">
+                <img src="./img/logo.svg" alt="logo">
+                <p>Account</p>
+            </div>
+        </nav>
+        <a href="#card1" class="link-content">
+            <p class="preface">A HIKING GUIDE</p>
+            <h1 class="link-content__title">Be Prepared For The Mountains And Beyond!</h1>
+            <p class="link-content__link">scroll down</p>
+        </a>
+    </header>
+    <main>
+        <div class="container-main">
+            <div class="card" id="card1">
+                <article class="article" data-number="01">
+                    <p class="preface">GET STARTED</p>
+                    <p class="card__title" data-number="01">What level of  hiker are you?</p>
+                    <p class="card__text">Determining what level of hiker you are can be an important tool when planning future hikes. This hiking level guide will help you plan hikes according to different hike ratings set by various websites like All Trails and Modern Hiker. What type of hiker are you – novice, moderate, advanced moderate, expert, or expert backpacker? </p>
+                    <a href="#" class="card__link">read more</a>
+                </article>
+                <img src="./img/01.jpg" alt="01" id="img1">
+            </div>
+            
+            <div class="card" id="card2">
+                <img src="./img/02.jpg" alt="02" id="img2">
+                <article class="article" data-number="02">
+                    <p class="preface">HIKIN ESSENTIALS</p>
+                    <p class="card__title" >Picking the right Hiking Gear!</p>
+                    <p class="card__text">The nice thing about beginning hiking is that you don’t really need any special gear, you can probably get away with things you already have. Let’s start with clothing. A typical mistake hiking beginners make is wearing jeans and regular clothes, which will get heavy and chafe wif they get sweaty or wet.</p>
+                    <a href="#" class="card__link">read more</a>
+                </article>
+            </div>
+
+            <div class="card" id="card3">
+                <article class="article" data-number="03">
+                    <p class="preface">WHERE YOU GO IS THE KEY</p>
+                    <p class="card__title">Understand Your Map & Timing?</p>
+                    <p class="card__text">To start, print out the hiking guide and map. If it’s raining, throw them in a Zip-Lock bag. Read over the guide, study the map, and have a good idea of what to expect. I like to know what my next landmark is as I hike. For example, I’ll read the guide and know that say, in a mile, I make a right turn at the junction..</p>
+                    <a href="#" class="card__link">read more</a>
+                </article>
+                <img src="./img/03.jpg" alt="03" id="img3">
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="container-main">
+            <div class="footer">
+                <div class="footer-left">
+                    <h3 class="name-company">MNTN</h3>
+                    <p class="footer-get">Get out there & discover your next <br> slope, mountain & destination!</p>
+                    <p class="footer-copyright">Copyright 2019 MNTN, Inc. Terms & Privacy</p>
+                </div>
+                <div class="footer-right">
+                    <ul class="link-mntn">
+                        <p class="link-mntn-title">More on The Blog</p>
+                        <li class="link-mntn__item"><a href="#">About MNTN</a></li>
+                        <li class="link-mntn__item"><a href="#">Contributors & Writers</a></li>
+                        <li class="link-mntn__item"><a href="#">Write For Us</a></li>
+                        <li class="link-mntn__item"><a href="#">Contact Us</a></li>
+                        <li class="link-mntn__item"><a href="#">Privacy Policy</a></li>
+                    </ul>
+    
+                    <ul class="link-mntn">
+                        <p class="link-mntn-title">More on MNTN</p>
+                        <li class="link-mntn__item"><a href="#">The Team</a></li>
+                        <li class="link-mntn__item"><a href="#">Jobs</a></li>
+                        <li class="link-mntn__item"><a href="#">Press</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+</html>
